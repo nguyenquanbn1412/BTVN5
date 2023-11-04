@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.fb-wrap-title {
+  display: flex;
+  align-items: center;
+}
+
+.title-container {
+  padding: 0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  background: #f0f2f5;
+}
+
+.fb-style {
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.fb-stylee .fb-content-title {
+  margin-bottom: 90px;
+}
+
+.fb-style h1 {
+  color: #1877f2;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.fb-style p {
+  font-size: 1.75rem;
+  white-space: nowrap;
+}
+
+.container {
+  width: 396px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px auto;
+}
+
+.container .wrap-content {
+  font-size: 17px;
+  width: 364px;
+  margin: 0 auto;
+}
+
+.container .wrap-content .input-custom {
+  height: 55px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 0 14px;
+}
+
+.container .wrap-content .input-custom:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+  outline: none !important;
+  caret-color: #1877f2;
+  border-radius: 6px;
+}
+
+.container .wrap-content .wrap-btn-login {
+  display: block;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-btn-login .btn-login {
+  color: #fff;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: content-box;
+}
+
+.container .wrap-content .wrap-btn-login .btn-login:hover {
+  background-color: #166fe5;
+}
+
+.container .wrap-content .wrap-text {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-text .text {
+  color: #1877f2;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container .wrap-content .wrap-text .text:hover {
+  text-decoration: underline;
+}
+
+.container .wrap-content .line {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-btn-create-new-account {
+  padding-top: 6px;
+  display: block;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-btn-create-new-account .btn-create-account {
+  color: #fff;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.container
+  .wrap-content
+  .wrap-btn-create-new-account
+  .btn-create-account:hover {
+  background-color: #36a420;
+  border-color: #36a420;
+}
